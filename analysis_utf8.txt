@@ -1,0 +1,37 @@
+﻿Analyzing lib...                                                
+
+warning - Duplicate import - lib\main.dart:8:8 - duplicate_import
+warning - Duplicate import - lib\main.dart:9:8 - duplicate_import
+warning - Duplicate import - lib\providers\wifi_service_provider.dart:6:8 - duplicate_import
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\compare_screen.dart:72:57 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\screens\graph_screen.dart:14:16 - prefer_const_constructors
+   info - Don't invoke 'print' in production code - lib\services\file_service.dart:30:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\file_service.dart:76:7 - avoid_print
+warning - Duplicate import - lib\services\trajectory_analyzer.dart:2:8 - duplicate_import
+   info - Don't invoke 'print' in production code - lib\services\trajectory_analyzer.dart:60:16 - avoid_print
+  error - The name 'SensorSample' isn't a type, so it can't be used as a type argument - lib\services\trajectory_service.dart:7:49 - non_type_as_type_argument
+  error - The named parameter 'angle' is required, but there's no corresponding argument - lib\services\trajectory_service.dart:14:14 - missing_required_argument
+  error - The named parameter 'distance' is required, but there's no corresponding argument - lib\services\trajectory_service.dart:14:14 - missing_required_argument
+  error - The named parameter 'flightTime' is required, but there's no corresponding argument - lib\services\trajectory_service.dart:14:14 - missing_required_argument
+  error - The named parameter 'releaseSpeed' is required, but there's no corresponding argument - lib\services\trajectory_service.dart:14:14 - missing_required_argument
+  error - The named parameter 'spin' is required, but there's no corresponding argument - lib\services\trajectory_service.dart:14:14 - missing_required_argument
+  error - The property 'timestampMs' can't be unconditionally accessed because the receiver can be 'null' - lib\services\trajectory_service.dart:19:29 - unchecked_use_of_nullable_value
+  error - Undefined name 'javelinThrow' - lib\services\trajectory_service.dart:22:18 - undefined_identifier
+  error - Undefined name 'javelinThrow' - lib\services\trajectory_service.dart:23:18 - undefined_identifier
+  error - Undefined name 'javelinThrow' - lib\services\trajectory_service.dart:24:18 - undefined_identifier
+  error - Undefined name 'javelinThrow' - lib\services\trajectory_service.dart:27:18 - undefined_identifier
+  error - Undefined name 'javelinThrow' - lib\services\trajectory_service.dart:30:18 - undefined_identifier
+  error - Undefined name 'javelinThrow' - lib\services\trajectory_service.dart:33:18 - undefined_identifier
+  error - Undefined name 'javelinThrow' - lib\services\trajectory_service.dart:73:14 - undefined_identifier
+  error - Undefined name 'javelinThrow' - lib\services\trajectory_service.dart:79:14 - undefined_identifier
+  error - The name 'SensorData' isn't a type, so it can't be used as a type argument - lib\services\trajectory_service.dart:94:10 - non_type_as_type_argument
+warning - Unused import: '../models/javelin_throw.dart' - lib\services\wifi_download_service.dart:7:8 - unused_import
+  error - The method 'contains' isn't defined for the type 'ConnectivityResult' - lib\services\wifi_download_service.dart:25:30 - undefined_method
+  error - The method 'contains' isn't defined for the type 'ConnectivityResult' - lib\services\wifi_download_service.dart:26:31 - undefined_method
+   info - Don't invoke 'print' in production code - lib\services\wifi_download_service.dart:67:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\utils\sensor_data_parser.dart:43:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\utils\sensor_data_parser.dart:48:7 - avoid_print
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\trajectory_chart.dart:74:42 - deprecated_member_use
+warning - Duplicate import - lib\widgets\wifi_scan_dialog.dart:3:8 - duplicate_import
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\wifi_scan_dialog.dart:203:32 - deprecated_member_use
+
